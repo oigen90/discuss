@@ -1,7 +1,9 @@
 defmodule Discuss.TopicController do
 
-    def new do
+  use Discuss.Web, :controller
 
-    end
+  def new(conn, _params) do
+
+  end
 
 end
